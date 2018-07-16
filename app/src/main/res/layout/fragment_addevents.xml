@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    >
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/form_event_name_desc"
+            android:layout_width="73dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="112dp"
+            android:text="@string/text_event_name_desc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/form_event_name_entry"
+            android:layout_width="86dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintStart_toEndOf="@+id/form_event_name_desc"
+            app:layout_constraintTop_toTopOf="@+id/form_event_name_desc" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="236dp"
+            android:text="@string/button_submit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/form_event_name_desc" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

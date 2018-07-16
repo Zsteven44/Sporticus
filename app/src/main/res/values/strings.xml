@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sporticus</string>
+
+
+    <!-- Bottom Navigation Actions -->
+    <string name="text_action_map">Map</string>
+    <string name="text_action_news">News</string>
+    <string name="text_action_events">Events</string>
+
+
+    <!-- Fragment "AddEvents" -->
+    <string name="text_event_name_desc">Name</string>
+
+
+    <!-- Buttons -->
+    <string name="button_submit">Submit</string>
+
+</resources>
